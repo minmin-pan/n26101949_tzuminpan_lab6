@@ -64,6 +64,7 @@ class Tower:
         pcr = cls(x, y, Snipe(), PCR_IMAGE)
         pcr._range = [100, 105, 110, 115, 120, 125]     # pcr attack range in each level
         pcr._damage = [3.0, 3.2, 3.4, 3.6, 3.8, 4.0]    # pcr attack damage in each level
+        pcr.cd_max_count = 120
         return pcr
         pass
 
